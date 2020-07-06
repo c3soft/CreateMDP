@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Password</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="container">
+
+        <section class="sectionPassword" id="sectionPassword">
+            <h2>Create your password</h2>
+            <form action="#" class="formPassword" id="formPassword">
+                <div class="password">
+                    <input id="inputPassword" type="password" placeholder="Your password" />
+                    <span class="eyeOpen" id="eyeOpen"><i class="fa fa-eye" id="iconEyeShowPassword"></i></span>
+                </div>
+                <div class="password">
+                    <input id="inputConfirm" type="text" placeholder="Confirm your password" />
+                </div>
+                <div class="btnGroup">
+                    <button class="buttonGo" id="btnGo">Send ! <i class="fa fa-paper-plane"
+                            aria-hidden="true"></i></button>
+                    <button class="buttonGo" id="btnReset" type="reset">Reset <i class="fa fa-refresh"
+                            aria-hidden="true"></i></button>
+                            <p class="textValid" id="textValid"></p>
+    
+                </div>
+            </form>
+        </section>
+
+        <section class="formConsigne">
+            <h3>Result</h3>
+            <div class="consignesIcon" id="consigneGroup">
+                <div class="consigneGroupe">
+                    <span><i class="fa fa-thumbs-up" aria-hidden="true" id="icon1"></i></span>
+                    <p class="pConsign" id="consign1">Must contain a minimum of 9 characters</p>
+                </div>
+
+                <div class="consigneGroupe">
+                    <span><i class="fa fa-thumbs-up" id="icon2"></i></span>
+                    <p class="pConsign" id="consign2">Must contain at least 1 lower case</p>
+                </div>
+
+                <div class="consigneGroupe">
+                    <span><i class="fa fa-thumbs-up" id="icon3"></i></span>
+                    <p class="pConsign" id="consign3">Must contain at least 1 capital letter</p>
+                </div>
+
+                <div class="consigneGroupe">
+                    <span><i class="fa fa-thumbs-up" id="icon4"></i></span>
+                    <p class="pConsign" id="consign4">Must contain at least 1 numbers</p>
+                </div>
+
+                <div class="consigneGroupe">
+                    <span><i class="fa fa-thumbs-up" id="icon5"></i></span>
+                    <p class="pConsign" id="consign5">
+                        Must contain at least 1 special character (% ! @ _ * #)
+                    </p>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
