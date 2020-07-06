@@ -11,11 +11,13 @@ body{
 
 h2{
   margin-bottom: 40px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
   font-weight: 100;
   font-size: 3rem;
   text-align: center;
+  color: #222;
 }
+
 .sectionPassword {
   display: flex;
   align-items: center;
@@ -25,8 +27,8 @@ h2{
   height: auto;
   background-color: #d8d9d9;
   -webkit-box-shadow: 0px 11px 23px -8px rgba(160, 81, 81, 0.45);
--moz-box-shadow: 0px 11px 23px -8px rgba(0,0,0,0.45);
-box-shadow: 0px 11px 23px -8px rgba(0,0,0,0.45);
+  -moz-box-shadow: 0px 11px 23px -8px rgba(0,0,0,0.45);
+  box-shadow: 0px 11px 23px -8px rgba(0,0,0,0.45);
 }
 
 .formPassword{
@@ -84,7 +86,9 @@ input{
 }
 
 .textValid{
+  position: relative;
   font-size: 2rem;
+  margin: 10px 0 0 20px;
 }
 /* /////////////////////////////////////////////////////////////////////// */
 
@@ -93,12 +97,6 @@ input{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  
-  /* width: 90%;
-  height: 100px;
-  margin-left: 110px;
-  margin-top: 35px; */
-  /* background-color: green; */
 }
 .consignesIcon{
   width: 70%;
@@ -121,8 +119,9 @@ input{
   font-size: 2rem;
   color: #dfd9d9;
 }
-/* i{
-  margin-right: 30px;
-} */
+
+.pConsign{
+  margin: 0;
+}
 
 
